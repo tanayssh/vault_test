@@ -1,0 +1,5 @@
+---
+# tasks file for vault_test
+- name: test vault
+  debug:
+    var: {{ tanay_pass }}
