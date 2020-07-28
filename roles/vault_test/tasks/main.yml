@@ -3,3 +3,7 @@
 - name: test vault
   debug:
     var: test_pass
+
+- name: test vault
+  debug:
+    var: pass
