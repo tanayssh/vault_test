@@ -1,9 +1,9 @@
 ---
 # tasks file for vault_test
-- name: test vault
+- name: test vault string
   debug:
     var: test_pass
 
-- name: test vault
+- name: test vault file
   debug:
     var: pass
