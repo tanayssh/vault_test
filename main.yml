@@ -1,5 +1,7 @@
 ---
 - name: test
   hosts: localhost
+  var_files:
+    - roles/vault_test/vars/pass.yml
   roles:
     - vault_test
